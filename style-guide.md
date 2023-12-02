@@ -7,9 +7,9 @@
 The designs were created to the following widths:
 
 - Mobile: 576px 📱
-- Tablet: 768px 🖥
+- Tablet: 768px 📱
 - Large: 992px 💻
-- Extra Large: 1200px 📺
+- Extra Large: 1200px 🖥
 
 ## Colors 🎨
 
