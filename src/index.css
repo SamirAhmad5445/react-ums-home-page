@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-slide-1 {
+    @apply bg-center bg-cover bg-[url("/assets/images/slide-1.jpg")];
+  }
+
+  .bg-slide-2 {
+    @apply bg-center bg-cover bg-[url("/assets/images/slide-2.jpg")];
+  }
+
+  .bg-slide-3 {
+    @apply bg-center bg-cover bg-[url("/assets/images/slide-3.jpg")];
+  }
+}
