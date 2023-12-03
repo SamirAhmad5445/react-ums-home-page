@@ -104,7 +104,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-primary-200">
-        <div className="max-container text-primary-200 py-7 flex justify-center items-center gap-8 flex-wrap">
+        <div className="max-container text-primary-200 py-7 px-12 flex justify-center items-center gap-8 flex-wrap">
           <p>&copy; FCIS-AinShams 2020 - {new Date().getFullYear()}</p>
 
           <ul className="sm:flex-1 pl-10 flex items-center gap-[18px]">
