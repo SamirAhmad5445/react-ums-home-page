@@ -30,6 +30,13 @@
   .btn-accent {
     @apply bg-accent text-white hover:bg-white hover:text-accent border-accent;
   }
+
+  .link {
+    @apply bg-gradient-to-r from-primary-300 to-primary-300 bg-no-repeat
+    bg-[length:0_1px] bg-right-bottom hover:bg-[length:100%_1px] hover:bg-left-bottom
+    hover:text-primary-300 transition-[background-size] duration-300 ease-in-out;
+    /* transition: background-size 300ms ease-in-out; */
+  }
 }
 
 @layer utilities {

@@ -18,7 +18,7 @@ const Feature = ({ feature }) => {
   return (
     <a
       href={feature.url}
-      className="group bg-primary-500 pt-8 pb-2 px-10 flex flex-col items-center content-start gap-1 rounded-[20px] hover:-translate-y-2 transition-transform duration-300 ease-in-out"
+      className="group bg-primary-500 pt-8 pb-2 px-10 flex flex-col items-center content-start gap-1 rounded-[20px] hover:-translate-y-2 hover:opacity-90 transition-transform duration-300 ease-in-out"
     >
       <span className="w-fit mx-auto p-4 rounded-full bg-primary-300 group-[&:nth-child(2n)]:bg-accent group-[&:nth-child(8)]:bg-danger group-[&:nth-child(3)]:bg-danger">
         <Icon name={feature.icon} size={30} className="text-white" />

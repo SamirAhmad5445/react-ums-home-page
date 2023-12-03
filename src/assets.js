@@ -31,7 +31,16 @@ import SlideBackground1 from "/assets/images/slide-1.jpg";
 import SlideBackground2 from "/assets/images/slide-2.jpg";
 import SlideBackground3 from "/assets/images/slide-3.jpg";
 
+const mediaIcon = [
+  { icon: Envelope, alt: "Home", url: "#" },
+  { icon: Facebook, alt: "Facebook", url: "#" },
+  { icon: Youtube, alt: "Youtube", url: "#" },
+  { icon: LinkedIn, alt: "Linked in", url: "#" },
+  { icon: Dribbble, alt: "dribbble", url: "#" },
+];
+
 export {
+  mediaIcon,
   Accessibility,
   ArrowsRotate,
   Audio,

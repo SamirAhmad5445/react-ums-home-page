@@ -3,6 +3,7 @@ import {
   FeaturesSection,
   LoginSection,
   ServicesSection,
+  Footer,
 } from "./sections";
 import { Controls } from "./components";
 
@@ -14,6 +15,7 @@ const App = () => {
       <FeaturesSection />
       <LoginSection />
       <ServicesSection />
+      <Footer />
     </>
   );
 };

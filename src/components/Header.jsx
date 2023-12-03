@@ -1,23 +1,7 @@
-import {
-  EgyptFlag,
-  Dribbble,
-  Eagle,
-  Envelope,
-  Facebook,
-  LinkedIn,
-  Youtube,
-} from "../assets";
+import { EgyptFlag, Eagle, mediaIcon } from "../assets";
 import Icon from "./Icon";
 
 const Header = () => {
-  const mediaIcon = [
-    { icon: Envelope, alt: "Home", url: "#" },
-    { icon: Facebook, alt: "Facebook", url: "#" },
-    { icon: Youtube, alt: "Youtube", url: "#" },
-    { icon: LinkedIn, alt: "Linked in", url: "#" },
-    { icon: Dribbble, alt: "dribbble", url: "#" },
-  ];
-
   return (
     <header className="bg-primary-500 md:pl-10 py-3 flex justify-center items-center max-md:flex-col text-sm">
       <div className="flex-1 flex justify-center items-center gap-[18px]">
