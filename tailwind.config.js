@@ -9,6 +9,7 @@ export default {
           300: "#6fadfa",
           400: "#007bff",
           500: "#1c335f",
+          600: "#13112d",
         },
         secondary: "#6c757d",
         accent: "#f3af4e",

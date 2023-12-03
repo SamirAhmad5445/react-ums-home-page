@@ -21,7 +21,7 @@ export const features = [
   {
     label: "Graduates Association Services",
     icon: Bookmark,
-    url: "#FacultiesServices",
+    url: "#GraduatesAssociationServices",
   },
   { label: "Faculties Services", icon: Gears, url: "#FacultiesServices" },
   { label: "Centers Services", icon: Star, url: "#CentersServices" },
