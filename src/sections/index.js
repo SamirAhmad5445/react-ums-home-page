@@ -1,5 +1,6 @@
 import HeroSection from "./HeroSection";
 import FeaturesSection from "./FeaturesSection";
+import LoginSection from "./LoginSection";
 import ServicesSection from "./ServicesSection";
 
-export { HeroSection, FeaturesSection, ServicesSection };
+export { HeroSection, FeaturesSection, ServicesSection, LoginSection };

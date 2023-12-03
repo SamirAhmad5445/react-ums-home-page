@@ -1,4 +1,9 @@
-import { HeroSection, FeaturesSection, ServicesSection } from "./sections";
+import {
+  HeroSection,
+  FeaturesSection,
+  LoginSection,
+  ServicesSection,
+} from "./sections";
 import { Controls } from "./components";
 
 const App = () => {
@@ -7,6 +12,7 @@ const App = () => {
       <Controls />
       <HeroSection />
       <FeaturesSection />
+      <LoginSection />
       <ServicesSection />
     </>
   );
