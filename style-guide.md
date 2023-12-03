@@ -52,6 +52,7 @@ just change `ICON_NAME` by any of these icons and your good to go 👍
 | <img src="./public/assets/icons/facebook.svg" alt="" width="18" height="18" />      | facebook      | <img src="./public/assets/icons/user.svg" alt="" width="18" height="18" />        | user        |
 | <img src="./public/assets/icons/gear.svg" alt="" width="18" height="18" />          | gear          | <img src="./public/assets/icons/video.svg" alt="" width="18" height="18" />       | video       |
 | <img src="./public/assets/icons/gears.svg" alt="" width="18" height="18" />         | gears         | <img src="./public/assets/icons/youtube.svg" alt="" width="18" height="18" />     | youtube     |
+| <img src="./public/assets/icons/previous.svg" alt="" width="18" height="18" />      | previous      | <img src="./public/assets/icons/next.svg" alt="" width="18" height="18" />        | next        |
 
 ## Fonts ✍
 

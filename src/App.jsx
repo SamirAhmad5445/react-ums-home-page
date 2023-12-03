@@ -1,12 +1,11 @@
-import vite from "/vite.svg";
+import { HeroSection, FeaturesSection, ServicesSection } from "./sections";
 const App = () => {
   return (
-    <div className="min-h-screen grid place-content-center">
-      <h1 className="text-5xl text-primary-500 font-bold">
-        Hello | ASU Smart Campus
-        <img src={vite} alt="" width={200} className="mx-auto" />
-      </h1>
-    </div>
+    <>
+      <HeroSection />
+      <FeaturesSection />
+      <ServicesSection />
+    </>
   );
 };
 

@@ -1,6 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .max-container {
+    @apply container mx-auto px-8;
+  }
+
+  .icon {
+    position: relative;
+  }
+
+  .icon svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn {
+    @apply bg-primary-300 text-white hover:bg-white hover:text-primary-300
+    shadow-[0_0.3rem_2rem] shadow-transparent hover:shadow-[0_0.3rem_0] hover:shadow-current
+    transition-all duration-300 ease-in-out
+    border border-primary-300
+    py-2 px-7 rounded-full;
+  }
+  .btn-accent {
+    @apply bg-accent text-white hover:bg-white hover:text-accent border-accent;
+  }
+}
 
 @layer utilities {
   .bg-slide-1 {
