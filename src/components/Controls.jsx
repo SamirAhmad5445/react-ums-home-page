@@ -32,6 +32,7 @@ const Controls = () => {
     <>
       <button className="fixed top-4 right-2 bg-primary-500 rounded-full z-50">
         <Icon name={Accessibility} size={40} />
+        <span className="sr-only">Accessibility</span>
       </button>
       <button
         onClick={handleClick}
@@ -40,16 +41,20 @@ const Controls = () => {
         }`}
       >
         <Icon name={Up} />
+        <span className="sr-only">Scroll to Top</span>
       </button>
       <div className="fixed bottom-8 left-8 hidden md:flex flex-col gap-2 z-50">
         <button className="bg-primary-600 text-white rounded-full p-3">
           <Icon name={Video} size={26} />
+          <span className="sr-only">videos</span>
         </button>
         <button className="bg-primary-600 text-white rounded-full p-3">
           <Icon name={Audio} size={26} />
+          <span className="sr-only">narrator</span>
         </button>
         <button className="bg-primary-600 text-white rounded-full p-3">
           <Icon name={Robot} size={26} />
+          <span className="sr-only">virtual assistant</span>
         </button>
       </div>
     </>

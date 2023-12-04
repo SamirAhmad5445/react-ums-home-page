@@ -35,18 +35,21 @@ const Slider = () => {
       </main>
       <button className="slider-btn-previous" onClick={handlePrevious}>
         <Icon name={Previous} size={20} />
+        <span className="sr-only">Previous Slide</span>
       </button>
       <button className="slider-btn-next" onClick={handleNext}>
         <Icon name={Next} size={20} />
+        <span className="sr-only">Next Slide</span>
       </button>
       <ul className="slider-bullets">
         {[...new Array(3)].map((_, index) => (
           <li
             key={index}
             style={currentSlide === index ? { opacity: 1 } : { opacity: 0.5 }}
-            onClick={() => setCurrentSlide(index)}
           >
-            <span className="sr-only">Go to Slide {index + 1}</span>
+            <button onClick={() => setCurrentSlide(index)}>
+              <span className="sr-only">Go to Slide {index + 1}</span>
+            </button>
           </li>
         ))}
       </ul>

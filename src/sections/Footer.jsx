@@ -77,18 +77,19 @@ const Footer = () => {
           <h3 className="text-lg text-primary-600 font-medium mb-2">
             FollowUs
           </h3>
-          <div className="flex items-center gap-4 mb-11">
+          <ul className="flex items-center gap-4 mb-11">
             {[...mediaIcon].slice(1).map((link) => (
-              <a
-                href={link.url}
-                key={link.alt}
-                className="grid place-content-center p-3 rounded-full hover:bg-primary-300 hover:text-white transition-colors duration-300"
-              >
-                <Icon name={link.icon} size={30} />
-                <span className="sr-only">{link.alt}</span>
-              </a>
+              <li key={link.alt}>
+                <a
+                  href={link.url}
+                  className="grid place-content-center p-3 rounded-full hover:bg-primary-300 hover:text-white transition-colors duration-300"
+                >
+                  <Icon name={link.icon} size={30} />
+                  <span className="sr-only">{link.alt}</span>
+                </a>
+              </li>
             ))}
-          </div>
+          </ul>
 
           <div className="grid gap-4">
             <p>
@@ -109,10 +110,12 @@ const Footer = () => {
 
           <ul className="sm:flex-1 pl-10 flex items-center gap-[18px]">
             {mediaIcon.map((link, index) => (
-              <a href={link.url} className="hover:text-primary-300" key={index}>
-                <Icon name={link.icon} size={16} />
-                <span className="sr-only">{link.alt}</span>
-              </a>
+              <li key={index}>
+                <a href={link.url} className="hover:text-primary-300">
+                  <Icon name={link.icon} size={16} />
+                  <span className="sr-only">{link.alt}</span>
+                </a>
+              </li>
             ))}
           </ul>
 

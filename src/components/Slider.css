@@ -64,10 +64,10 @@
     @apply absolute bottom-5 inset-x-1/2 -translate-x-1/2 w-fit
     flex justify-center items-center gap-2;
   }
-  .slider-bullets li {
+  .slider-bullets button {
     @apply w-[30px] h-[30px] grid place-content-center cursor-pointer;
   }
-  .slider-bullets li::after {
+  .slider-bullets button::after {
     @apply content-[''] w-[30px] h-[3px] bg-light;
   }
 }
