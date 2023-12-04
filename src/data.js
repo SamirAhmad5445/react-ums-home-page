@@ -104,3 +104,30 @@ export const ourServices = [
     ],
   },
 ];
+
+export const stats = [
+  {
+    label: "Faculty",
+    progress: 65,
+    color: "#aa6ffa",
+    amount: "19+",
+  },
+  {
+    label: "Visitors Number",
+    progress: 82,
+    color: "#f3af4e",
+    amount: "1,229,145",
+  },
+  {
+    label: "Undergraduate Students",
+    progress: 92,
+    color: "#6fadfa",
+    amount: "220614+",
+  },
+  {
+    label: "Postgraduate Students",
+    progress: 70,
+    color: "#fa6fd1",
+    amount: "20540+",
+  },
+];

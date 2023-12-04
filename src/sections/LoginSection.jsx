@@ -10,7 +10,12 @@ const LoginSection = () => {
       <img src={LoginFormImage} alt="" className="max-w-[470px]" />
       <div className="flex-1 px-6">
         <h2 className="text-5xl text-dark font-medium py-8">Login</h2>
-        <form className="grid grid-cols-1 gap-4">
+        <form
+          className="grid grid-cols-1 gap-4"
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
+        >
           <label htmlFor="college">College</label>
           <input
             id="college"
@@ -27,8 +32,9 @@ const LoginSection = () => {
             className="border border-primary-200 rounded-md shadow-md py-1.5 px-3 focus:outline-0 focus:shadow-[0_0_1rem_0.0625rem] focus:shadow-primary-300"
           />
 
-          <label htmlFor="">Password</label>
+          <label htmlFor="password">Password</label>
           <input
+            id="password"
             type="Password"
             placeholder="Password"
             className="border border-primary-200 rounded-md shadow-md py-1.5 px-3 focus:outline-0 focus:shadow-[0_0_1rem_0.0625rem] focus:shadow-primary-300"
@@ -43,10 +49,10 @@ const LoginSection = () => {
           <div className="flex items-center">
             <input
               type="checkbox"
-              id="remember"
+              id="rememberMe"
               className="accent-primary-400 mr-1"
             />
-            <label htmlFor="remember">Remember me</label>
+            <label htmlFor="rememberMe">Remember me</label>
           </div>
         </form>
         <div className="flex justify-between gap-4 flex-wrap mt-8 text-dark">
