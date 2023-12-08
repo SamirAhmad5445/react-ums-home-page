@@ -38,7 +38,7 @@ to use any icon just by `img` tag like this 👇
 just change `ICON_NAME` by any of these icons and you'r good to go 👍
 
 | Icon                                                                                | Name          | Icon                                                                              | Name        |
-| :---------------------------------------------------------------------------------- | :------------ | :-------------------------------------------------------------------------------- | :---------- |
+| :----------------------------------------------------------------------------------: | :------------ | :--------------------------------------------------------------------------------: | :---------- |
 | <img src="./public/assets/icons/accessibility.svg" alt="" width="18" height="18" /> | accessibility | <img src="./public/assets/icons/link.svg" alt="" width="18" height="18" />        | link        |
 | <img src="./public/assets/icons/arrows-rotate.svg" alt="" width="18" height="18" /> | arrows-rotate | <img src="./public/assets/icons/linkedin-in.svg" alt="" width="18" height="18" /> | linkedin-in |
 | <img src="./public/assets/icons/audio.svg" alt="" width="18" height="18" />         | audio         | <img src="./public/assets/icons/medal.svg" alt="" width="18" height="18" />       | medal       |
