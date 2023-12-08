@@ -8,11 +8,23 @@
 
   .slide {
     @apply grid grid-cols-1 place-content-center 
-    text-white px-14 md:px-20;
+    text-white px-14 md:px-20 lg:px-32;
+  }
+
+  .bg-slide-1 {
+    @apply bg-center bg-cover bg-[url("/assets/images/slide-1.jpg")];
+  }
+
+  .bg-slide-2 {
+    @apply bg-center bg-cover bg-[url("/assets/images/slide-2.jpg")];
+  }
+
+  .bg-slide-3 {
+    @apply bg-center bg-cover bg-[url("/assets/images/slide-3.jpg")];
   }
 
   .slide > h2 {
-    @apply text-4xl md:text-5xl md:leading-[64px] font-bold 
+    @apply text-4xl font-bold md:text-6xl md:leading-[64px] md:font-medium 
     max-w-[20ch] pb-5;
   }
 
@@ -52,11 +64,17 @@
   }
 
   .slider-btn-previous {
-    @apply absolute inset-y-0 left-0 w-[75px] grid place-content-center;
+    @apply absolute inset-y-0 left-0 
+    w-[50px] lg:w-[100px] 
+    opacity-50 hover:opacity-100 
+    grid justify-end items-center;
     -webkit-tap-highlight-color: transparent;
   }
   .slider-btn-next {
-    @apply absolute inset-y-0 right-0 w-[75px] grid place-content-center;
+    @apply absolute inset-y-0 right-0
+     w-[50px] lg:w-[100px] 
+     opacity-50 hover:opacity-100 
+     grid justify-start items-center;
     -webkit-tap-highlight-color: transparent;
   }
 

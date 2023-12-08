@@ -93,10 +93,10 @@ const Slide2 = ({ isPrevious, isCurrent, isNext }) => {
 
   return (
     <div className={`slide bg-slide-2 ${position}`}>
-      <h2>What Are Services That Are Provided On Our System?</h2>
+      <h2>Ain Shams University electronic systems</h2>
       <p>
-        You can know your results, submit petitions, pay expenses, register for
-        materials, file complaints
+        Which manages the educational and administrative process within the
+        university
       </p>
       <div>
         <Button>Discover</Button>
@@ -117,14 +117,14 @@ const Slide3 = ({ isPrevious, isCurrent, isNext }) => {
 
   return (
     <div className={`slide bg-slide-3 ${position}`}>
-      <h2>What Are Services That Are Provided On Our System?</h2>
+      <h2>Book Your Course Now</h2>
       <p>
         You can know your results, submit petitions, pay expenses, register for
         materials, file complaints
       </p>
       <div>
-        <Button>Apply for PG Studies</Button>
-        <Button>Book Your Course</Button>
+        <Button type="accent">Apply for PG Studies</Button>
+        <Button type="accent">Book Your Course</Button>
       </div>
     </div>
   );
