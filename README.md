@@ -65,7 +65,7 @@ One of the challenges of working on a large website like UMS is to manage a larg
 └── package.json
 ```
 
-In /App.jsx, I can import any component or section from the corresponding directories, thanks to the index.js files. My App.jsx looks like this:
+In `/App.jsx`, I can import any component or section from the corresponding directories, thanks to the `index.js` files. My `App.jsx` looks like this:
 
 ```jsx
 import { SectionA, SectionB } from "/sections";

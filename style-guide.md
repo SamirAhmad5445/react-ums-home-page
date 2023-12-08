@@ -1,7 +1,5 @@
 # Web Lv2 • Task #1: UMS Home page
 
- <img src="./public/assets/images/ums.png" alt="ums logo"/>
-
 ### Layout 📐
 
 The designs were created to the following widths:
@@ -15,15 +13,15 @@ The designs were created to the following widths:
 
 You can set the colors as custom props and in the
 
-| Name      | HEX Value | Color                                           | Name   | HEX Value | Color                                           |
-| :-------- | :-------- | :---------------------------------------------- | :----- | --------- | ----------------------------------------------- |
-| blue      | `#007bff` | <input type="color" value="#007bff" disabled /> | yellow | `#ffc107` | <input type="color" value="#ffc107" disabled /> |
-| indigo    | `#6610f2` | <input type="color" value="#6610f2" disabled /> | green  | `#28a745` | <input type="color" value="#28a745" disabled /> |
-| purple    | `#6f42c1` | <input type="color" value="#6f42c1" disabled /> | teal   | `#20c997` | <input type="color" value="#20c997" disabled /> |
-| pink      | `#e83e8c` | <input type="color" value="#e83e8c" disabled /> | cyan   | `#17a2b8` | <input type="color" value="#17a2b8" disabled /> |
-| red       | `#dc3545` | <input type="color" value="#dc3545" disabled /> | white  | `#ffffff` | <input type="color" value="#ffffff" disabled /> |
-| orange    | `#fd7e14` | <input type="color" value="#fd7e14" disabled /> | gray   | `#6c757d` | <input type="color" value="#6c757d" disabled /> |
-| gray-dark | `#343a40` | <input type="color" value="#343a40" disabled /> |        |           |                                                 |
+| Color     | Hex Value | color  | Hex Value |
+| :-------- | :-------- | :----- | :-------- |
+| blue      | `#007bff` | yellow | `#ffc107` |
+| indigo    | `#6610f2` | green  | `#28a745` |
+| purple    | `#6f42c1` | teal   | `#20c997` |
+| pink      | `#e83e8c` | cyan   | `#17a2b8` |
+| red       | `#dc3545` | white  | `#ffffff` |
+| orange    | `#fd7e14` | gray   | `#6c757d` |
+| gray-dark | `#343a40` |        |           |
 
 ## Assets 📁
 
@@ -37,7 +35,7 @@ to use any icon just by `img` tag like this 👇
 <img src="/assets/icons/ICON_NAME.svg" alt="" />
 ```
 
-just change `ICON_NAME` by any of these icons and your good to go 👍
+just change `ICON_NAME` by any of these icons and you'r good to go 👍
 
 | Icon                                                                                | Name          | Icon                                                                              | Name        |
 | :---------------------------------------------------------------------------------- | :------------ | :-------------------------------------------------------------------------------- | :---------- |

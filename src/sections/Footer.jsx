@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-light">
       <div className="max-container text-primary-200 pt-28 pb-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-12">
         <img src={umsLogo} width={200} height={150} alt="UMS Logo" />
-
         <div>
           <h3 className="text-lg text-primary-600 font-medium mb-2">
             Who Are We
@@ -44,7 +43,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
         <div>
           <h3 className="text-lg text-primary-600 font-medium mb-2">
             Important Links
@@ -72,7 +70,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
         <div>
           <h3 className="text-lg text-primary-600 font-medium mb-2">
             FollowUs
@@ -90,7 +87,6 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-
           <div className="grid gap-4">
             <p>
               <span className="text-primary-600">E-mail:</span>{" "}
@@ -103,12 +99,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="border-t border-primary-200">
         <div className="max-container text-primary-200 py-7 px-12 flex justify-center items-center gap-8 flex-wrap">
           <p>&copy; FCIS-AinShams 2020 - {new Date().getFullYear()}</p>
-
-          <ul className="sm:flex-1 pl-10 flex items-center gap-[18px]">
+          <ul className="sm:flex-1 sm:pl-10 flex items-center gap-[18px]">
             {mediaIcon.map((link, index) => (
               <li key={index}>
                 <a href={link.url} className="hover:text-primary-300">
@@ -118,7 +112,6 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-
           <ul className="flex justify-center items-center flex-wrap [&_li:hover]:text-primary-300">
             <li className="px-2 border-r border-primary-200">
               <a href="#">Terms of Use </a>
