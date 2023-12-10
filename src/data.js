@@ -131,3 +131,42 @@ export const stats = [
     amount: "20540+",
   },
 ];
+
+export const slidesContent = [
+  {
+    title: "What Are Services That Are Provided On Our System?",
+    bgImage: "bg-slide-1",
+    content:
+      "You can know your results, submit petitions, pay expenses, register for materials, file complaints",
+    actions: [
+      {
+        label: "Login",
+        href: "#",
+        type: "accent",
+      },
+    ],
+  },
+  {
+    bgImage: "bg-slide-2",
+    title: "Ain Shams University electronic systems",
+    content:
+      "Which manages the educational and administrative process within the university",
+    actions: [{ label: "Discover" }, { label: "Your Opinion Matters" }],
+  },
+  {
+    bgImage: "bg-slide-3",
+    title: "Book Your Course Now",
+    content:
+      "You can know your results, submit petitions, pay expenses, register for materials, file complaints",
+    actions: [
+      {
+        label: "Apply for PG Studies",
+        type: "accent",
+      },
+      {
+        label: "Book Your Course",
+        type: "accent",
+      },
+    ],
+  },
+];

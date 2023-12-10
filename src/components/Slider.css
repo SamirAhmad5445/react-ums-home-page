@@ -86,6 +86,10 @@
     @apply w-[30px] h-[30px] grid place-content-center cursor-pointer;
   }
   .slider-bullets button::after {
-    @apply content-[''] w-[30px] h-[3px] bg-light;
+    @apply content-[''] w-[30px] h-[3px] bg-light opacity-50;
+  }
+  .current-bullet button::after,
+  .slider-bullets button:hover::after {
+    @apply opacity-100;
   }
 }
