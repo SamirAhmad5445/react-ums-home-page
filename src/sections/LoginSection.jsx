@@ -17,6 +17,7 @@ const LoginSection = () => {
             e.preventDefault();
           }}
         >
+          <label>Collage</label>
           <DropdownList values={faculties} defaultSelected={0} />
 
           <InputField id="username" label="User Name" placeholder="User Name" />
