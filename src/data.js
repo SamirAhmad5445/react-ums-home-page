@@ -170,3 +170,26 @@ export const slidesContent = [
     ],
   },
 ];
+
+export const faculties = [
+  "Science",
+  "Computer And Information Science",
+  "Alsun",
+  "Faculty Of Medicine",
+  "Agriculture",
+  "Arts",
+  "Dentistry",
+  "Nursing",
+  "Specific Education",
+  "Ain Shams",
+  "Law",
+  "Education",
+  "Archaeology",
+  "Childhood",
+  "Pharmacy",
+  "Women",
+  "Business",
+  "Technical Nursing Institute",
+  "Faculty Of Mass Communication",
+  "Environment Studies And Research",
+];

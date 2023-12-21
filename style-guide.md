@@ -37,20 +37,21 @@ to use any icon just by `img` tag like this 👇
 
 just change `ICON_NAME` by any of these icons and you'r good to go 👍
 
-| Icon                                                                                | Name          | Icon                                                                              | Name        |
-| :----------------------------------------------------------------------------------: | :------------ | :--------------------------------------------------------------------------------: | :---------- |
-| <img src="./public/assets/icons/accessibility.svg" alt="" width="18" height="18" /> | accessibility | <img src="./public/assets/icons/link.svg" alt="" width="18" height="18" />        | link        |
+|                                        Icon                                         | Name          |                                       Icon                                        | Name        |
+| :---------------------------------------------------------------------------------: | :------------ | :-------------------------------------------------------------------------------: | :---------- |
+| <img src="./public/assets/icons/accessibility.svg" alt="" width="18" height="18" /> | accessibility |    <img src="./public/assets/icons/link.svg" alt="" width="18" height="18" />     | link        |
 | <img src="./public/assets/icons/arrows-rotate.svg" alt="" width="18" height="18" /> | arrows-rotate | <img src="./public/assets/icons/linkedin-in.svg" alt="" width="18" height="18" /> | linkedin-in |
-| <img src="./public/assets/icons/audio.svg" alt="" width="18" height="18" />         | audio         | <img src="./public/assets/icons/medal.svg" alt="" width="18" height="18" />       | medal       |
-| <img src="./public/assets/icons/book-open.svg" alt="" width="18" height="18" />     | book-open     | <img src="./public/assets/icons/pen.svg" alt="" width="18" height="18" />         | pen         |
-| <img src="./public/assets/icons/bookmark.svg" alt="" width="18" height="18" />      | bookmark      | <img src="./public/assets/icons/robot.svg" alt="" width="18" height="18" />       | robot       |
-| <img src="./public/assets/icons/dribbble.svg" alt="" width="18" height="18" />      | dribbble      | <img src="./public/assets/icons/search.svg" alt="" width="18" height="18" />      | search      |
-| <img src="./public/assets/icons/eagle.svg" alt="" width="18" height="18" />         | eagle         | <img src="./public/assets/icons/star.svg" alt="" width="18" height="18" />        | star        |
-| <img src="./public/assets/icons/envelope.svg" alt="" width="18" height="18" />      | envelope      | <img src="./public/assets/icons/up.svg" alt="" width="18" height="18" />          | up          |
-| <img src="./public/assets/icons/facebook.svg" alt="" width="18" height="18" />      | facebook      | <img src="./public/assets/icons/user.svg" alt="" width="18" height="18" />        | user        |
-| <img src="./public/assets/icons/gear.svg" alt="" width="18" height="18" />          | gear          | <img src="./public/assets/icons/video.svg" alt="" width="18" height="18" />       | video       |
-| <img src="./public/assets/icons/gears.svg" alt="" width="18" height="18" />         | gears         | <img src="./public/assets/icons/youtube.svg" alt="" width="18" height="18" />     | youtube     |
-| <img src="./public/assets/icons/previous.svg" alt="" width="18" height="18" />      | previous      | <img src="./public/assets/icons/next.svg" alt="" width="18" height="18" />        | next        |
+|     <img src="./public/assets/icons/audio.svg" alt="" width="18" height="18" />     | audio         |  <img src="./public/assets/icons/envelope.svg" alt="" width="18" height="18" />   | envelope    |
+|   <img src="./public/assets/icons/book-open.svg" alt="" width="18" height="18" />   | book-open     |     <img src="./public/assets/icons/pen.svg" alt="" width="18" height="18" />     | pen         |
+|   <img src="./public/assets/icons/bookmark.svg" alt="" width="18" height="18" />    | bookmark      |    <img src="./public/assets/icons/robot.svg" alt="" width="18" height="18" />    | robot       |
+|   <img src="./public/assets/icons/dribbble.svg" alt="" width="18" height="18" />    | dribbble      |   <img src="./public/assets/icons/search.svg" alt="" width="18" height="18" />    | search      |
+|     <img src="./public/assets/icons/eagle.svg" alt="" width="18" height="18" />     | eagle         |    <img src="./public/assets/icons/star.svg" alt="" width="18" height="18" />     | star        |
+|     <img src="./public/assets/icons/down.svg" alt="" width="18" height="18" />      | down          |     <img src="./public/assets/icons/up.svg" alt="" width="18" height="18" />      | up          |
+|   <img src="./public/assets/icons/facebook.svg" alt="" width="18" height="18" />    | facebook      |    <img src="./public/assets/icons/user.svg" alt="" width="18" height="18" />     | user        |
+|     <img src="./public/assets/icons/gear.svg" alt="" width="18" height="18" />      | gear          |    <img src="./public/assets/icons/video.svg" alt="" width="18" height="18" />    | video       |
+|     <img src="./public/assets/icons/gears.svg" alt="" width="18" height="18" />     | gears         |   <img src="./public/assets/icons/youtube.svg" alt="" width="18" height="18" />   | youtube     |
+|   <img src="./public/assets/icons/previous.svg" alt="" width="18" height="18" />    | previous      |    <img src="./public/assets/icons/next.svg" alt="" width="18" height="18" />     | next        |
+|     <img src="./public/assets/icons/medal.svg" alt="" width="18" height="18" />     | medal         |                                                                                   |
 
 ## Fonts ✍
 

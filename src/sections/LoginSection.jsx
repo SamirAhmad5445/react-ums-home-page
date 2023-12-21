@@ -1,5 +1,6 @@
 import { LoginFormImage } from "../assets";
-import Button from "../components/Button";
+import { faculties } from "../data";
+import { Button, InputField, DropdownList } from "../components";
 
 const LoginSection = () => {
   return (
@@ -16,28 +17,15 @@ const LoginSection = () => {
             e.preventDefault();
           }}
         >
-          <label htmlFor="college">College</label>
-          <input
-            id="college"
-            type="text"
-            placeholder="Faculty Of Science"
-            className="border border-primary-200 rounded-md shadow-md py-1.5 px-3 focus:outline-0 focus:shadow-[0_0_1rem_0.0625rem] focus:shadow-primary-300"
-          />
+          <DropdownList values={faculties} defaultSelected={0} />
 
-          <label htmlFor="username">User Name</label>
-          <input
-            id="username"
-            type="text"
-            placeholder="User Name"
-            className="border border-primary-200 rounded-md shadow-md py-1.5 px-3 focus:outline-0 focus:shadow-[0_0_1rem_0.0625rem] focus:shadow-primary-300"
-          />
+          <InputField id="username" label="User Name" placeholder="User Name" />
 
-          <label htmlFor="password">Password</label>
-          <input
+          <InputField
             id="password"
-            type="Password"
+            type="password"
+            label="Password"
             placeholder="Password"
-            className="border border-primary-200 rounded-md shadow-md py-1.5 px-3 focus:outline-0 focus:shadow-[0_0_1rem_0.0625rem] focus:shadow-primary-300"
           />
 
           <div className="py-4">

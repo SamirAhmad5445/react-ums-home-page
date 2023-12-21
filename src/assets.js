@@ -18,6 +18,7 @@ import Robot from "/assets/icons/robot.svg";
 import Search from "/assets/icons/search.svg";
 import Star from "/assets/icons/star.svg";
 import Up from "/assets/icons/up.svg";
+import Down from "/assets/icons/down.svg";
 import User from "/assets/icons/user.svg";
 import Video from "/assets/icons/video.svg";
 import Youtube from "/assets/icons/youtube.svg";
@@ -60,6 +61,7 @@ export {
   Search,
   Star,
   Up,
+  Down,
   User,
   Video,
   Youtube,
