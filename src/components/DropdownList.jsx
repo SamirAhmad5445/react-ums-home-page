@@ -31,7 +31,7 @@ const DropdownList = ({ values, defaultSelected = 0 }) => {
           <span className="sr-only">Search</span>
           <input
             type="text"
-            autoFocus={true}
+            autoFocus={isOpen}
             onChange={(e) => handleSearch(e.target.value)}
             className="flex-1 bg-transparent focus:outline-0"
           />
